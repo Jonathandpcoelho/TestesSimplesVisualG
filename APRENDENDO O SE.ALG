@@ -1,16 +1,16 @@
 Algoritmo "Aprendendo o SE"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Rubem Oliota
-// Descrição   : seguir por caminhos diferentes na execução
+// DescriÃ§Ã£o   : seguir por caminhos diferentes na execuÃ§Ã£o
 // Autor(a)    : Jonathan dos Passos coelho
 // Data atual  : 19/06/2021
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    idade : inteiro
    nome : caractere
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    escreval("Informe seu nome :")
    leia(nome)
@@ -27,9 +27,9 @@ Inicio
    fimse
 
    se idade > 15 entao
-      escreval("Você ja pode retirar seu titulo de eleitor Senhor ",nome)
+      escreval("VocÃª ja pode retirar seu titulo de eleitor Senhor ",nome)
    senao
-      escreval ("voce ainda nao tem nem o titulo de elitor")
+      escreval ("voce ainda nao tem nem o titulo de eleitor")
    fimse
 
 
