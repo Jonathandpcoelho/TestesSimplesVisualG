@@ -14,16 +14,38 @@ Var
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval("Informe a sua altura")
+
+   escreval("-----Calculadora de IMC-----")  //Logo do programa
+   escreval("")
+   escreval("Para calcular Seu IMC, favor responder as perguntas abaixo")
+   escreval("")
+   escreval("Informe a sua altura:")
    leia(altura)
    escreval("informe seu peso:")
    leia(peso)
-   escreval("aguarde enquanto calculamos seu IMC...")
 
+   escreval("")
    IMC<- peso / (altura * altura)
+   //Limpa tela>>>>>>>> p/ melhorar o visual do programa
+   limpatela
 
-   escreval("seu IMC é: ", IMC)
+   escreval("-----Calculadora de IMC-----")  //Logo do programa
+   escreval("")
+   escreval("O resultado do seu IMC é =",IMC)
+   escreval("")
 
-   escreval("para melhorar o seu IMC é so ficar mais alto.")
+   //tabela p/ o usuario consultar seu IMC ---------
 
+   escreval("-----Tabela de consulta IMC-----")
+   escreval("Abaixo de 17 então você está muito abaixo do peso")
+   escreval("Entre 17 e 18.49, Abaixo do peso")
+   escreval("Entre 18.50 e 24,99, Peso Normal")
+   escreval("Entre 25 e 29.99, Acima do peso")
+   escreval("Entre 30 e 34.99, Obesidade Nivel 1")
+   escreval("Entre 35 e 39.99, Obesidade Nivel 2 (severa)")
+   escreval("Acima de 40, Obesidade nivel 3 (Morbida)")
+
+   // OBServação a usuarios leigos //
+   escreval("")
+   escreval("OBS: Sigla IMC significa seu Indice de massa corporal")
 Fimalgoritmo
