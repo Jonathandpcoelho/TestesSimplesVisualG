@@ -11,6 +11,9 @@ Var
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
+   
+   escreval("-----Bem vindo a loja de bebidas Online-----")
+   escreval("")
 
    escreval("Informe seu nome :")
    leia(nome)
@@ -29,7 +32,7 @@ Inicio
    se idade > 15 entao
       escreval("Você ja pode retirar seu titulo de eleitor Senhor ",nome)
    senao
-      escreval ("voce ainda nao tem nem o titulo de eleitor")
+      escreval ("voce ainda nao tem nem o titulo de elitor")
    fimse
 
 
