@@ -1,11 +1,11 @@
 Algoritmo "Captura de dados em tela"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Rubem Oliota
-// Descrição   : dar a oportunidade do ususario interagir com o programa
+// DescriÃ§Ã£o   : dar a oportunidade do ususario interagir com o programa
 // Autor(a)    : Jonathan Dos Passos coelho
 // Data atual  : 19/06/2021
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    altura,peso,IMC: real
 
@@ -13,7 +13,7 @@ Var
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval("Informe a sua altura")
    leia(altura)
    escreval("informe seu peso:")
@@ -22,8 +22,8 @@ Inicio
 
    IMC<- peso / (altura * altura)
 
-   escreval("seu IMC é: ", IMC)
+   escreval("seu IMC Ã©: ", IMC)
 
-   escreval("para melhorar o seu IMC é so ficar mais alto.")
+   escreval("para melhorar o seu IMC Ã© so ficar mais alto.")
 
 Fimalgoritmo
